@@ -1,1 +1,2 @@
-# RUMTIMBET-page
+# Проект - Румтимбет
+Верстка одностраничного сайта с адаптивом на HTML, CSS, JS, Jquery, FancyBox
