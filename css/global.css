@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "NunitoSans Bold";
+    src: url("../assets/Fonts/NunitoSans_7pt-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "NunitoSans SemiBold";
+    src: url("../assets/Fonts/NunitoSans_7pt-SemiBold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "NunitoSans ExtraBold";
+    src: url("../assets/Fonts/NunitoSans_7pt-ExtraBold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "NunitoSans Regular";
+    src: url("../assets/Fonts/NunitoSans_7pt-Regular.ttf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: NunitoSans Regular;
+    font-size: 18px;
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+    outline: none !important;
+}
+
+button {
+    border-radius: var(--radius-button);
+    border: 0px;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
+.button {
+    padding: 16px 36px;
+    background-color: var(--button-color);
+    color: var(--white);
+    transition: all .3s ease-in-out;
+    border: 1px solid var(--button-color);
+}
+
+.button:hover {
+    background-color: var(--white);
+    color: var(--button-color);
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.center {
+    text-align: center;
+}
